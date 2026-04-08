@@ -7,8 +7,8 @@ from PIL import Image, ImageFilter
 import numpy as np
 
 # ================= 配置区 =================
-MY_IMAGES = r"C:\Users\HongWei\Desktop\photos\2"  # 图片文件夹
-MY_MUSIC = r"C:\Users\HongWei\Desktop\photos\Spring_Welcome_Walk_春日徒步.mp3"   # 音乐路径
+MY_IMAGES = r"C:\Users\User\Desktop\photos\2"  # 图片文件夹
+MY_MUSIC = r"C:\Users\User\Desktop\photos\Spring_Welcome_Walk.mp3"   # 音乐路径
 OUTPUT_NAME = f"my_album_{time.strftime('%Y%m%d_%H%M%S')}.mp4"                    # 输出文件名
 
 # 建议设置一个标准分辨率，比如 1080p (1920x1080) 或 竖屏 (1080x1920)
